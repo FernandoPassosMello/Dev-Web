@@ -1,0 +1,42 @@
+
+.card{
+    background-color: #fff; /* Fundo do componente*/ 
+    height: 200px; /* Largura do componente*/
+    width: 400px; /* Altura do componente*/
+    color: #333; /* Cor da fonte*/
+    border-radius: 5px; /* Borda externa do componente*/
+    margin: 10px; /* Espaçamento entre componentes*/
+    padding: 10px;/*Margem*/
+    box-sizing: border-box; /*Desconsidera padding que faz o componente crescer evitando desorganização layout*/
+   
+}
+
+.card .title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+.card .content{
+    display: flex;
+    gap: 10px;
+}
+
+.card .description{
+    flex: 2 ;
+    height: 140px;
+    border-radius: 5%;
+    
+}
+
+.card .image{
+    flex: 1;
+    height: 140px;
+}
+
+.avatar{
+    width: 150px;
+    height: 140px;
+    object-fit: fill ;
+    border-radius: 10%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;}
